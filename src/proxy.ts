@@ -9,6 +9,7 @@ const i18nConfig = {
     supportedLngs: supportedLanguageKeys as unknown as string[],
     fallbackLng: defaultLanguage,
     localeInPath: true,
+    defaultNS: "common/utils",
 };
 
 export default createProxy(i18nConfig);
