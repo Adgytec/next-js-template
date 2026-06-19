@@ -8,7 +8,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import React, { type ReactNode, Suspense, useState } from "react";
 import { I18nProvider as ReactAriaI18nProvider } from "react-aria-components";
 import { defaultLanguage } from "@/i18n/languages";
-import { Devtools } from "../Devtools/Devtools";
+import { Devtools } from "../Devtools";
 
 export const ApplicationProvider: React.FC<{
     children?: ReactNode;
